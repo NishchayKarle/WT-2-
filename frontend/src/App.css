@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+  background-color:rgba(236, 65, 53, 0.767);
+  min-height: calc(100vh - 40px);
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin:0;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.layout{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: left;
+  padding-left: 100px;
+  grid-gap: 40px;
+}
+
+.med_list{
+  font-size: 27px;
+  cursor: pointer;
+}
+.title{
+  font-size: 25px;
+  color:rgb(0, 0, 0);
+}
+
+.type{
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+.description {
+  font-size:18px ;
+  color:wheat;
+  font-style:italic;
+}
+
+.orange {
+  color: orange;
+}
+
+.no_of_ratings{
+  font-size:15px;
+}
+
+.nobr{
+  display:inline;
+}
+
+.purple{
+  color:rgb(94, 11, 94);
+}
+
+.rate-container span.fa{
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
+
+.medicine-item{
+  display: grid;
+  grid-template-columns:1fr auto auto;
+}
+
+.medicine-item span {
+  font-size: .5em;
+  margin: 35px 5px;
+  align-items: center ;
+}
+
+.main_title{
+  color:rgb( 134, 206, 152);
+}
+
+button {
+  color: rgb(12, 11, 11) !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #60a3bc;
+  padding: 5px;
+  border-radius: 50px;
+  display: inline-block;
+  border: none;
+}
+
+button:disabled {
+  color:grey !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background:#60a3bc;
+  padding: 5px;
+  border-radius: 50px;
+  display:inline-block;
+  border: none;
+  cursor: not-allowed;
+}
+
+input{
+  width:40%;
+  padding: 2px;
+  margin: 8px 0px;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+textarea {
+  width:60%;
+  padding: 2px;
+
+  margin: 8px 0px;
+  font-size: 0.6em;
+  row-gap: 10px;
+
+}
+
+.fa-trash {
+  color: rgb(201, 59, 87);
+}
+
+.fa-edit {
+  color:rgb(56, 205, 255);
+}
+
+.fa-clinic-medical {
+  color:rgb(199, 63, 63);
+}
+
+.login-container {
+  width: 50%;
+  align-content: center;
+  text-align: center;
+  padding-left:350px;
+}
+
+.login-input{
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.login-button{
+  color: rgb(12, 11, 11) !important;
+  background: #60a3bc;
+  border-radius: 0px;
+}
+
+.patientinfo{
+  text-align: left;
+  background-color:rgb(17, 83, 83) ;
+  min-height: calc(100vh);
+  font-size:15px;
+  color: wheat;
+  padding-top: 40px;
+  padding-left: 300px;
+  padding-right: 20px;
+  
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding:50px 150px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(229, 255, 0, 0.8);
+  padding-left: 200px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.display-symptoms{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left:50px;
+  padding: 100px;
+  padding-top: 0px;
+  font-size:18.5px;
+  text-align: justify;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  width:90%;
+}
+
+.radio{
+  width:5%;
+  font-weight: bold;
+}
+
+.diagnosis{
+  margin-left:0px;
+  cursor: pointer;
+}
+
+.login{
+ /*background-color:rgb(17, 83, 83) ;*/
+ text-align: center;
+}
+
+.main_title2{
+  color:rgb( 134, 206, 152);
+  font-size: 40px;
+}
+
+.symptoms{
+  background-color:rgb(17, 83, 83);
+  color: antiquewhite;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+.menu{
+  margin: 1px;
+  align-items: left;
+  padding-bottom: -30px;
+}
+
+.loginn{
+  background-color:rgb(17, 83, 83);
+}
+.logout{
+  float: right;
+  cursor: pointer;
+}
+
+.x{
+  cursor: pointer;
+}
+
+.main_title3{
+  padding-left:250px
+}
